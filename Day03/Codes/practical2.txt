@@ -1,0 +1,36 @@
+touch - Creates a file 'abc.tsv'.
+
+vi - Open the file "abc.tsv" using the "vi" text editor.
+
+ls - a - Lists all files including hidden files, in the current directory.
+
+//Extracts the tab seperated first column.
+cut -d$'\t' -f1 abc.tsv
+
+//Displays the first 2 lines of abc.tsv.
+head -n2 abc.tsv
+
+//Displays the last 2 lines of abc.tsv.
+$ tail -n2 abc.tsv
+
+// Extracts the 3rd row.
+head -n3 abc.tsv | tail -n1
+
+// Prints the entire file using awk.
+awk '{print'} abc.tsv
+
+// Prints the number of columns (seperated by space).
+awk '{print NF; exit'} abc.tsv
+
+// Prints the 3rd column using awk.
+awk '{print $3'} abc.tsv
+
+wc -l - Count the number of lines.
+wc -l abc.tsv
+
+// Extracts the first 4 lines and Search for "dini" in those first 4 lines.
+head -n4 abc.tsv | grep 'dini'
+
+// Extracts the first 4 lines and Search for "5" in those first 4 lines.
+head -n4 yen.tsv | grep '6'
+
