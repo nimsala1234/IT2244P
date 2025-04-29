@@ -1,0 +1,24 @@
+touch - create a file.
+
+vi - Open a file
+	Switch to Insert Mode (to start typing):
+		>>Press i (insert) or a (append).
+
+	Save and Exit:
+		>>Press ctrl + c, then type :wq! and press Enter.
+
+more - give the data inside the file.
+
+dir - display all the files in the directory.
+dir *.txt - display all the files with .txt extension.
+
+
+find - search for files and directories.
+find *y* - search for all the directories and files with the character "y"
+
+chmod(Change Mode) – file permission command.
+444 - file is read only for user, server and admin.
+
+ls -ltr	Long format (detailed view).
+
+777 - Anyone(user, server and admin) can read write and execute cake.txt file.
