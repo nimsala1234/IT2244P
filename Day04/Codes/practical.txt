@@ -1,0 +1,72 @@
+cal - display the calander.
+
+date +%d - display the date 'DD' format.
+
+date +%m - display the month in 'MM' format.
+
+date +%y - display the year in 'YY' format.
+
+date +%D - display the date in 'MM/DD/YY' format.
+
+date +%Y - display the year in 'YYYY' format.
+
+date +%B - display the month in word format.
+
+date +%b - display the month in word format.
+
+date +%A - display the day in word format.
+
+date +%a - display the day in word format.
+
+date +%h - display the month in word format.
+
+//question 01
+
+touch Q1.sh
+vi Q1.sh
+
+echo "Who are you?"
+read name
+echo "Enter number 1"
+read x
+echo "Enter number 2"
+read y
+echo "Enter number 3"
+read z
+
+sum=$(($x+$y+$z))
+avg=$(($sum/3))
+echo "Hi" $name
+echo "Summation	" $sum
+echo "Average	" $avg
+
+chmod 777 Q1.sh
+
+./Q1.sh
+
+
+//Question 02
+Read two number from user and print 
+addition, subtraction, multiplication and divition.
+
+touch Q2.sh
+vi Q2.sh
+
+echo "Enter a"
+read a
+echo "Enter number b"
+read b
+
+sum=$(($a+$b))
+sub=$(($a-$b))
+mul=$(($a*$b))
+div=$(($a/$b))
+
+echo "Summation	" $sum
+echo "Subtraction	" $sub
+echo "Multiplication	" $mul
+echo "Division	" $div
+
+chmod 777 Q2.sh
+
+./Q2.sh
