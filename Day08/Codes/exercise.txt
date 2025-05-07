@@ -1,0 +1,55 @@
+//Q1 - fibbonacci series
+output : First 10 Fibbonacci numbers:
+0 1 1 2 3 5 8 13 21 34
+
+//code
+
+touch Q1.sh
+chmod 777 Q1.sh
+vi Q1.sh
+
+read -p 'Enter how many terms needed: ' num
+a=0
+b=1
+for((i=0; i<num; i++))
+do
+echo $a
+echo ''
+c=$((a+b))
+a=$b
+b=$c
+done
+
+//Q2 - Factorial
+output : Factorial of 5 is : 120
+
+//code
+
+touch Q2.sh
+chmod 777 Q2.sh
+vi Q2.sh
+
+read -p "Find factorial of: " num
+fac=1
+for((i=1; i<=num; i++))
+do
+fac=$(($fac*$i))
+done
+echo 'Factorial of ' $num ' is '$fac
+
+//Q3 - Multiples of 3 between 1 and 50
+3
+6
+...
+48
+
+touch Q3.sh
+chmod 777 Q3.sh
+vi Q3.sh
+
+let i=3
+while [ $i -le 50 ]
+do 
+echo $i
+i=$(($i+3))
+done
