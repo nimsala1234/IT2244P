@@ -1,0 +1,109 @@
+Q1)Print multiplication table using for loop.
+1 X 2 = 2
+2 X 2 = 4
+
+//Code
+
+touch Q1.sh
+chmod 777 Q1.sh
+vi Q1.sh 
+
+echo 'Multiplication Table'
+read -p 'Enter number: ' num
+
+for ((i=1; i<=10; i++))
+do
+a=$((i*num))
+echo -n  $i ' X ' $num ': ' $a
+echo ''
+done
+
+Q2)
+     *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+
+touch Q2.sh
+chmod 777 Q2.sh
+vi Q2.sh
+
+read -p "Enter number of rows: " rows
+
+for (( i=1; i<=rows; i++))
+do
+for(( j=i; j<rows; j++))
+do
+echo -n " "
+done
+for (( k=1; k<=((2*i-1)); k++))
+do
+echo -n "*"
+done
+echo 
+done	 
+
+for (( i=rows-1; i>=1; i--))
+do
+for(( j=rows; j>i; j--))
+do
+echo -n " "
+done
+for (( k=1; k<=((2*i-1)); k++))
+do
+echo -n "*"
+done
+echo
+done
+
+Q3)sum of the first 10 fibbonacci series
+
+touch Q3.sh
+chmod 777 Q3.sh
+vi Q3.sh
+
+a=0
+b=1
+sum=0
+for (( i=0; i<10; i++))
+do
+c=$((a+b))
+sum=$((sum+a))
+a=$b
+b=$c
+done
+echo "Sum of first 10 fibonacci series: $sum"
+
+Q4)sum of prime numbers from 1 to 100
+
+touch Q4.sh
+chmod 777 Q4.sh
+vi Q4.sh
+
+sum=0
+for((num=1;num<=100;num++))
+do
+is_prime=1
+if [ $num -lt 2 ]; 
+then
+is_prime=0
+fi
+for ((i=2; i*i<=num; i++));
+do
+if [ $((num % i)) -eq 0 ];
+then
+is_prime=0
+break
+fi
+done
+if [ $is_prime -eq 1 ]; 
+then
+sum=$((sum + num))
+fi
+done
+echo "Sum of prime numbers from 1 to 100 is: $sum"
