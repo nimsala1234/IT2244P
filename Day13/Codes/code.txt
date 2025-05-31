@@ -19,18 +19,18 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi if.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc if.c -o if
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+vi if.c
+gcc if.c -o if
+./if
 Enter your age: 24
 You are eligible to vote!
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+./if
 Enter your age: -5
 Invalid age!
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+./if
 Enter your age: 345
 Invalid age!
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+./if
 Enter your age: 12
 You aren't eligible to vote!
 
@@ -47,12 +47,12 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi if.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc if.c -o if
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+vi if.c
+gcc if.c -o if
+./if
 Enter your age: 24
 You are eligible to vote!
-[yeheni@DESKTOP-CF9TBQU ~]$ ./if
+./if
 Enter your age: 0
 You aren't eligible to vote!
 
@@ -108,12 +108,12 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi switch.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc switch.c -o switch
-[yeheni@DESKTOP-CF9TBQU ~]$ ./switch
+vi switch.c
+gcc switch.c -o switch
+./switch
 Enter nmuber between 1-7: 5
 Today is Friday!
-[yeheni@DESKTOP-CF9TBQU ~]$ ./switch
+./switch
 Enter nmuber between 1-7: 9
 Invalid number!
 
@@ -175,12 +175,12 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi lifepathnumber.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc lifepathnumber.c -o lifepathnumber
-[yeheni@DESKTOP-CF9TBQU ~]$ ./lifepathnumber
+vi lifepathnumber.c
+gcc lifepathnumber.c -o lifepathnumber
+./lifepathnumber
 Enter your birth date: 20
 Carefuly do your work
-[yeheni@DESKTOP-CF9TBQU ~]$ ./lifepathnumber
+./lifepathnumber
 Enter your birth date: 28
 Lucky
 
@@ -205,9 +205,9 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi fibbonacci.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc fibbonacci.c -o fibbonacci
-[yeheni@DESKTOP-CF9TBQU ~]$ ./fibbonacci
+vi fibbonacci.c
+gcc fibbonacci.c -o fibbonacci
+./fibbonacci
 Enter number: 5
 0 1 1 2 3
 
@@ -228,9 +228,9 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi factorial.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc factorial.c -o factorial
-[yeheni@DESKTOP-CF9TBQU ~]$ ./factorial
+vi factorial.c
+gcc factorial.c -o factorial
+./factorial
 Enter number: 5
 Factorial of 5 is: 120
 
@@ -247,9 +247,9 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi while.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc while.c -o while
-[yeheni@DESKTOP-CF9TBQU ~]$ ./while
+vi while.c
+gcc while.c -o while
+./while
 10 9 8 7 6 5 4 3 2 1
 
 //07 - Write a C program that:
@@ -268,9 +268,9 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi concatinate.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc concatinate.c -o concatinate
-[yeheni@DESKTOP-CF9TBQU ~]$ ./concatinate
+vi concatinate.c
+gcc concatinate.c -o concatinate
+./concatinate
 Enter string1: apple
 Enter string2: banana
 applebanana
@@ -299,9 +299,9 @@ int main() {
 
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi binary.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc binary.c -o binary
-[yeheni@DESKTOP-CF9TBQU ~]$ ./binary
+vi binary.c
+gcc binary.c -o binary
+./binary
 Enter a binary number: 1001
 Decimal equivalent: 9
 
@@ -337,9 +337,9 @@ int main() {
 
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi Q09.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc Q09.c -o Q09
-[yeheni@DESKTOP-CF9TBQU ~]$ ./Q09
+vi Q09.c
+gcc Q09.c -o Q09
+./Q09
 Enter number of elements: 6
 Enter 6 integers:
 4
@@ -392,9 +392,9 @@ int main() {
 
 ans:-
 Minimum: 2
-[yeheni@DESKTOP-CF9TBQU ~]$ vi pascals.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc pascals.c -o pascals
-[yeheni@DESKTOP-CF9TBQU ~]$ ./pascals
+vi pascals.c
+gcc pascals.c -o pascals
+./pascals
 Enter number of rows: 6
              1
            1   1
