@@ -30,9 +30,9 @@ return 0;
 }
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi fork.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc fork.c -o fork
-[yeheni@DESKTOP-CF9TBQU ~]$ ./fork
+vi fork.c
+gcc fork.c -o fork
+./fork
 
 Hello World!
 
@@ -55,9 +55,9 @@ return 0;
 
 
 ans:-
-[yeheni@DESKTOP-CF9TBQU ~]$ vi fork.c
-[yeheni@DESKTOP-CF9TBQU ~]$ gcc fork.c -o fork
-[yeheni@DESKTOP-CF9TBQU ~]$ ./fork
+vi fork.c
+gcc fork.c -o fork
+./fork
 
 Hello World!
 
