@@ -1,4 +1,4 @@
-# 📅 2025-03-15 - 🍃 CMD
+# 📅 2025-03-15 
 This folder contains OS practicals from **March 15, 2025**.
 
 | Code  | Output |
