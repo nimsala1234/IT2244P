@@ -6,14 +6,10 @@ In this lesson, we learned the following,
 - **Create Directories using CMD commands.**
 - **Display the username**
 - **Display the windows version**
-- **Set the text color in CMD text**
 - **Display the current time**
 - **Display the current date**
-- **Lists files in wide format**
 - **Display the age**
 ---
-
-### Get the employee details including the department & project details
 
 | Code  | Output |
 |------|------|
