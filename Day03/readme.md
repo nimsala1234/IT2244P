@@ -1,3 +1,6 @@
+# 📅 2025-03-15 - 🍃 CMD
+This folder contains OS practicals from **March 15, 2025**.
+
 | Code  | Output |
 |------|------|
 | [`practical 01`](./Codes/practical1.txt)  |  ![01](./Outputs/1.png)|
