@@ -1,3 +1,6 @@
+# 📅 2025-03-21 - 🍃 Fedora linux 
+This folder contains OS practicals from **March 21, 2025**.
+
 | Code  | Output |
 |------|------|
 | [`practical 01`](./Codes/practical01.txt)  |  ![01](./Outputs/1.png)|
