@@ -1,4 +1,4 @@
-# 📅 2025-03-24 - 🍃
+# 📅 2025-03-24
 This folder contains OS practicals from **March 24, 2025**.
 
 | Code  | Output |
