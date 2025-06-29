@@ -1,6 +1,6 @@
 # 📅 2025-04-25
 
-This folder contains OS practicals from **April 25, 2025**.
+This folder contains ICAE 01 from **April 25, 2025**.
 
 # Question 01
 
