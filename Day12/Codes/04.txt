@@ -21,3 +21,4 @@ int age;
 	printf("Character = %c\n", alpha);
 	
 return 0;
+}
