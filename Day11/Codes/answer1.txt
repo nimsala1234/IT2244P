@@ -28,9 +28,9 @@ cd %USERPROFILE%\Desktop
 echo. > Icae_Marks.xlsx
 echo. > Final_Exam_Marks.xlsx
 
-move "C:\Users\Dell\Desktop\Icae_Marks.xlsx" "C:\Users\User\Desktop\Marks"
-move "C:\Users\Dell\Desktop\Final_Exam_Marks.xlsx" "C:\Users\User\Desktop\Marks"
+move "Icae_Marks.xlsx" Marks
+move "Final_Exam_Marks.xlsx" Marks
 
-xcopy "C:\Users\Dell\Desktop\Marks" "C:\Users\User\Desktop\Exam" /E /I /H
+xcopy /E /I Marks Exam\Marks
 
-attrib +h "C:\Users\Dell\Desktop\Exam"
+attrib +h Exam
