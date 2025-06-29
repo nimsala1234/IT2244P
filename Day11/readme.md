@@ -20,4 +20,4 @@ Practical → Word document, PowerPoint document, text file
 
 | Code  | Output |
 |------|------|
-| [`Question 01`](./Codes/answer1.txt)  |   ![01](./Outputs/1.png) ![01](./Outputs/2.png) ![01](./Outputs/3.png) ![01](./Outputs/4.png) ![01](./Outputs/5.png) ![01](./Outputs/6.png) ![01](./Outputs/7.png)|
+| [`Question 01`](./Codes/answer1.txt)  |   ![01](./Outputs/1.png) ![02](./Outputs/2.png) ![03](./Outputs/3.png) ![04](./Outputs/4.png) ![05](./Outputs/5.png) ![06](./Outputs/6.png) ![07](./Outputs/7.png) ![08](./Outputs/8.png)|
