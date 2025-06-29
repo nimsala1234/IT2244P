@@ -2,6 +2,8 @@ cd %USERPROFILE%\Desktop
 
 mkdir CSC2244 Marks Exam
 
+cd CSC2244
+
 mkdir practical theory "exam papers"
 
 cd practical
