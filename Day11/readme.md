@@ -18,6 +18,17 @@ Practical → Word document, PowerPoint document, text file
 • Create two new excel files in desktop named Icae_Marks & Final_Exam_Marks. Move those two into the directory Marks.
 • Copy the Directory Marks into the Exam directory and hide the Exam directory.
 
+Using bash shell Do the Question 02 and Question 03 Given Below
+
+# Question 02
+
+Using the data.csv file do the questions given below.
+
+1) Filter the rows where the GPA is greater than 3.5
+2) Calculate the average GPA of all students.
+   
 | Code  | Output |
 |------|------|
 | [`Question 01`](./Codes/answer1.txt)  |   ![01](./Outputs/1.png) ![02](./Outputs/2.png) ![03](./Outputs/3.png) ![04](./Outputs/4.png) ![05](./Outputs/5.png) ![06](./Outputs/6.png) ![07](./Outputs/7.png) ![08](./Outputs/8.png)|
+| [`Question 02`](./Codes/answer2.txt)  |  ![09](./Outputs/9.png)|
+
