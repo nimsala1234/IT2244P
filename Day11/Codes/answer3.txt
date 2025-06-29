@@ -17,9 +17,9 @@ echo $str1 " and " $str2 " are having equal length "
 fi
 
 ans:-
-vi question3.sh
-chmod 777 question3.sh
-./question3.sh
+vi Q3.sh
+chmod 777 Q3.sh
+./Q3.sh
 Enter the first string:
 Apple
 Enter the second string:
