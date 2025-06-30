@@ -1,4 +1,4 @@
-# 📅 2025-05-202
+# 📅 2025-05-02
 
 This folder contains OS practicals from **May 02, 2025**.
 
