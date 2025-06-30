@@ -1,1 +1,7 @@
-Thsi folder contains the codes of the 13th day
+# 📅 2025-05-202
+
+This folder contains OS practicals from **May 02, 2025**.
+
+| Code  | Output |
+|------|------|
+| [`Codes`](./Codes/code.txt)  | **(01)Enter your age and verify wether you're eligible or not for election voting using if else condition.** <br>  ![01](./Outputs/1.png) <br> **(02)Enter your age and verify wether you're eligible or not for election voting using ternary operator** <br> ![02](./Outputs/2.png) <br> **(03)create a program to find the day using switch case** <br> ![03](./Outputs/3.png) <br> **(04)Find the life path based on the life path number** <br> ![04](./Outputs/4.png) <br> **(05)Find the fibonacci series upto the number of elements user inputs** <br> ![05](./Outputs/5.png) <br> **(06)Factorial for non-negative numbers** <br> ![06](./Outputs/6.png) <br> **(07)Print 1-10 using while loop** <br> ![07](./Outputs/7.png) <br> **(08)Write a C program that: Accepts two strings as input from the user,Concatenates the two strings, Displays the concatenated result.** <br> ![08](./Outputs/8.png) <br> **(09)Write a C program that takes a binary number (as an integer) as input and converts it to its decimal equivalent.** <br> ![09](./Outputs/9.png) <br> **(10)Write a C program that: Accepts an array of integers from the user. Finds and displays the maximum and minimum values in the array.** <br> ![10](./Outputs/10.png) <br> **(11)C program to generate Pascal's Triangle.** <br> ![11](./Outputs/11.png)|
