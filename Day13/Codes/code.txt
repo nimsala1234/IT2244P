@@ -234,25 +234,25 @@ gcc factorial.c -o factorial
 Enter number: 5
 Factorial of 5 is: 120
 
-//06 - while loop
-#include<stdio.h>
-int main(){
-	int i=10;
-	while(i>0){
-		printf("%d ",i);
-		i-=1;
-	}
-	printf("\n");
-return 0;
+//07 - while loop
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+    while (i <= 10) {
+        printf("%d ", i);
+        i++;
+    }
+    return 0;
 }
 
 ans:-
 vi while.c
 gcc while.c -o while
 ./while
-10 9 8 7 6 5 4 3 2 1
+1 2 3 4 5 6 7 8 9 10
 
-//07 - Write a C program that:
+//08 - Write a C program that:
 Accepts two strings as input from the user.
 Concatenates the two strings Displays the concatenated result.
 
@@ -275,7 +275,7 @@ Enter string1: apple
 Enter string2: banana
 applebanana
 
-//08 - Write a C program that takes a binary number (as an integer) as input and 
+//09 - Write a C program that takes a binary number (as an integer) as input and 
 converts it to its decimal equivalent.
 
 #include <stdio.h>
@@ -305,7 +305,7 @@ gcc binary.c -o binary
 Enter a binary number: 1001
 Decimal equivalent: 9
 
-//09 - Write a C program that:
+//10 - Write a C program that:
 Accepts an array of integers from the user.
 Finds and displays the maximum and minimum values in the array.
 
@@ -351,7 +351,7 @@ Enter 6 integers:
 Maximum: 89
 Minimum: 2
 
-//10 - C program to generate Pascal's Triangle.
+//11 - C program to generate Pascal's Triangle.
 Output:
 no of rows =5
           1
@@ -391,7 +391,6 @@ int main() {
 }
 
 ans:-
-Minimum: 2
 vi pascals.c
 gcc pascals.c -o pascals
 ./pascals
